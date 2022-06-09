@@ -562,7 +562,7 @@ footer {
 }
 @media only screen and (max-width: 440px){
   header{height: 320px;}
-  .header__container{max-width: 390px;}
+  .header__container{max-width: 360px;}
   .logo{font-size: 16px;}
   .navbar img{display: none;}
   .navbar__menu li{padding-left: 1rem;}
@@ -576,7 +576,7 @@ footer {
 }
   .headline h1{font-size: 1.5rem;}
   .subheader{display: none;}
-  .main__container{max-width: 390px;}
+  .main__container{max-width: 360px;}
   .quote{display: none;}
   .text{
     width: 100%;
@@ -588,10 +588,12 @@ footer {
   #p1{
     padding-top: 3%;
     font-size: 16px;
+    text-align: justify;
   }
   #p2{
     padding-top: 3%;
     font-size: 16px;
+    text-align: justify;
   }
   .services{height: 1600px;}
   .services__description{
@@ -634,7 +636,7 @@ footer {
   }
   .newsletter__box h3{font-size: 24px;}
   footer{height: 785px;}
-  .footer__container{max-width: 390px;}
+  .footer__container{max-width: 360px;}
   .footer__blocks{
     display: flex;
     flex-direction: column;
@@ -651,4 +653,18 @@ footer {
   .services__block :first-child{padding-bottom: 5px;}
   .contactus__block :first{padding-bottom: 5px;}
   .followus__block :first-child{padding-bottom: 5px;}
+}
+@media only screen and (max-width:360px) {
+  .header__container{width: 320px;}
+  .logo{font-size: 14px;}
+  .navbar__menu ul li a{font-size: 12px;}
+  #title{font-size: 10px;}
+  .main__container{width:320px;}
+  #p1{text-align: justify;}
+  #p2{text-align: justify;}
+  .cards__container{margin-top: 5%;}
+  .newsletter__box h3{font-size: 22px;}
+  footer{height: 600px;}
+  .footer__container{width: 320px;}
+  
 }
