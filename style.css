@@ -666,5 +666,46 @@ footer {
   .newsletter__box h3{font-size: 22px;}
   footer{height: 600px;}
   .footer__container{width: 320px;}
-  
+}
+@media only screen and (max-width:820px) {
+  header{height: 650px;}
+  .header__container{max-width: 760px;}
+  .navbar__menu li{padding-left: 1rem;}
+  .logo{font-size: 20px}
+  .navbar__menu ul li a{font-size: 16px;}
+  #number{font-size: 16px;}
+  .headline{width: 100%;}
+  #title{font-size: 1rem;}
+  .headline h1{font-size: 2rem;}
+  .scroll span{font-size: 16px;}
+  .subheader{
+    width: 80%;
+    height: 95px;
+  }
+  .main__container{width: 760px;}
+  .intro{flex-direction: column;}
+  .text{
+    height: 360px;
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .text input{padding-top: 3%;}
+  #p1{padding-top: 0;}
+  #p2{padding-top: 2%;}
+  .card{text-align: justify;}
+  .services__description{
+    padding-top: 3%;
+    width: 80%;
+    height: 190px;
+  }
+  .services{height: 860px;}
+  .company-description p{font-size: 1.5rem;}
+  .testimonials{height: 700px;}
+  .newsletter{height: 220px;}
+  .newsletter__box{width: 100%;}
+  footer{height: 800px;}
+  .footer__container{max-width: 760px;}
+  .footer__blocks{margin-top: 5%;}
 }
