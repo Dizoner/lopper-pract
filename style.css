@@ -667,7 +667,11 @@ footer {
   footer{height: 600px;}
   .footer__container{width: 320px;}
 }
+<<<<<<< HEAD
  @media only screen and (min-width:760px) (max-width:820px) {
+=======
+/*@media only screen and (max-width:820px) {
+>>>>>>> 14140a37fcf296402b10e2e5f0136557a3b78eb8
   header{height: 650px;}
   .header__container{max-width: 760px;}
   .navbar__menu li{padding-left: 1rem;}
@@ -708,4 +712,4 @@ footer {
   footer{height: 800px;}
   .footer__container{max-width: 760px;}
   .footer__blocks{margin-top: 5%;}
-}
+}*/
