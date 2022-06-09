@@ -560,7 +560,7 @@ footer {
   right: 25%;
   top: 30%;
 }
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 440px){
   header{height: 320px;}
   .header__container{max-width: 390px;}
   .logo{font-size: 16px;}
@@ -633,7 +633,7 @@ footer {
     height: 200px;
   }
   .newsletter__box h3{font-size: 24px;}
-  footer{height: 825px;}
+  footer{height: 785px;}
   .footer__container{max-width: 390px;}
   .footer__blocks{
     display: flex;
