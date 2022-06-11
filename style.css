@@ -797,3 +797,9 @@ footer {
   .newsletter__box{width: 100%;}
   .footer__container{max-width: 980px;}
 }
+.red-decoration{
+  border: 1px solid red;
+}
+.blue-decoration{
+  border: 1px solid blue;
+}
